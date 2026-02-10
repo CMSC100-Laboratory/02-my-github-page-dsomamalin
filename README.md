@@ -20,7 +20,7 @@ your username and email. This configuration helps track who pushes changes to th
 by selecting which part of the branch you will use to host your static website.
 
 key takeaway:
-blablabla html css something something
+html css flow according to the industry standard
 
 references:
 https://docs.google.com/document/d/1zh8F21k5Yo7WUppmBWsv-rMt5AsI5-VPj1oBQgJwj1Q/edit?usp=sharing
