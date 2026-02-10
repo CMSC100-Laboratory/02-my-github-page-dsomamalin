@@ -1,99 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Sample Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #eb0707;
-        }
-
-        header {
-            background-color: #ff3f3f;
-            color: white;
-            padding: 20px;
-            border-radius: 5px;
-        }
-
-        main {
-            background-color: white;
-            padding: 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     </style>
 </head>
-
 <body>
-    <header id="top">
-        <h1>Welcome to My Website</h1>
-        <p>This is a sample HTML page</p>
-        <a href="#footer" style="color:aquamarine">Go to Footer</a>
-    </header>
-    <main>
-        <h2>Section Title</h2>
-        <p>This is some sample content for the page.</p>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
-            <li>Item 7</li>
-            <li>Item 8</li>
-            <li>Item 9</li>
-            <li>Item 10</li>
-            <li>Item 11</li>
-            <li>Item 12</li>
-            <li>Item 13</li>
-            <li>Item 14</li>
-            <li>Item 15</li>
-            <li>Item 16</li>
-            <li>Item 17</li>
-            <li>Item 18</li>
-            <li>Item 19</li>
-            <li>Item 20</li>
-            <li>Item 21</li>
-            <li>Item 22</li>
-            <li>Item 23</li>
-            <li>Item 24</li>
-            <li>Item 25</li>
-            <li>Item 26</li>
-            <li>Item 27</li>
-            <li>Item 28</li>
-            <li>Item 29</li>
-            <li>Item 30</li>
-            <li>Item 31</li>
-            <li>Item 32</li>
-            <li>Item 33</li>
-            <li>Item 34</li>
-            <li>Item 35</li>
-            <li>Item 36</li>
-            <li>Item 37</li>
-            <li>Item 38</li>
-            <li>Item 39</li>
-            <li>Item 40</li>
-            <li>Item 41</li>
-            <li>Item 42</li>
-            <li>Item 43</li>
-            <li>Item 44</li>
-            <li>Item 45</li>
-            <li>Item 46</li>
-            <li>Item 47</li>
-            <li>Item 48</li>
-            <li>Item 49</li>
-            <li>Item 50</li>
-        </ul>
-    </main>
-    <footer id="footer">
-        This is the footer.
-        <a href="#top" style="color:rgb(42, 139, 107)">Go to Top</a>
-    </footer>
-</body>
+  <main>
+    <h1 id="main-title">PORTFOLIO</h1>
+    <div class="upper-container">
+        
+        <section id="home" class="hero">
+            <div class="hero-image">
+                <img src="featured_photo.png">
+            </div>
 
+            <div class="hero-content">
+                <h2>Dexter Omamalin</h2>
+                <h1>Frontend Software Engineer</h1>
+                <p>Born and raised in Mindanao, computers have been my interest from a very young age. My father, who is a Web Developer, introduced me to Web Programming since I was capable of controllong a mouse and keyboard. Now, as a graduating BS Computer Science student in UP Los Baños, I plan to use my lifelong. learnings and apply them to real-world problems.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="lower-container">
+        <section id="service" class="service">
+            <h2>Skills</h2>
+            <ul class="services-list">
+            <li class="service-item">
+                <img src="icon-web.svg" alt="">
+                <h3>Management</h3>
+                <p>I have led teams to accomplish programming tasks. I consider myself an adept at managing small groups of people to deliver satisfactory results and meeting deadlines.</p>
+            </li>
+
+            <li class="service-item">
+                <img src="icon-mobile.svg" alt="">
+                <h3>Web Programming</h3>
+                <p>I am adept at HTML, CSS, and Javascript. I have been developing websites since I was in elementary.</p>
+            </li>
+
+            <li class="service-item">
+                <img src="icon-branding.svg" alt="">
+                <h3>Previous Projects</h3>
+                <ul class="project-list">
+                    <li class="project-item">
+                        <p>"Who Wants to be a Millionaire" coded in Python</p>
+                    </li>
+                    <li class="project-item">
+                       <p>Food delivery game coded in Java</p>
+                    </li>
+                </ul>
+                
+            </li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <ul class="contact-list">
+            <li class="contact-item">
+                <img src="icon-linkedin.svg" class="icon">
+                <p>dsomamalin</p>
+            </li>
+
+            <li class="contact-item">
+                <img src="icon-facebook.svg" class="icon">
+                <p>dexter.omamalin</p>
+            </li>
+
+            <li class="contact-item">
+                <img src="icon-instagram.svg" class="icon">
+                <p>@dexterbleh</p>
+            </li>
+            </ul>
+        </section>
+    </div>
+
+  </main>
+
+  <footer></footer>
+
+</body>
 </html>
